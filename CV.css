@@ -1,0 +1,74 @@
+
+
+#curriculum{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+#izq {
+    width: 30%;
+    height: 100%;
+    border: solid black;
+}
+#der{
+    width: 70%;
+    height: 100%;
+    border: solid black;
+}
+
+.encabezadoizq{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    border: solid green;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+}
+
+.Foto {
+    margin-top: 5%;
+    border: solid blue;
+    display: inline-block;
+  position: relative;
+    overflow: hidden;
+  border-radius: 50%;
+        
+ }
+ 
+ .nombre{
+    text-align: center;
+    border: solid blue;
+    font-size: small;
+ }
+  .titulo{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    border: solid blue;
+    margin-top: 0%;
+  }
+
+    .cuerpoizq{
+        text-align: justify;
+    }
+    .profile-description{
+        border-top: solid aqua;
+    }
+
+.encabezadoder{
+    margin-top: 10%;
+    padding-left: 10%;
+}
+.cuerpoder{
+    width: 70%;
+    padding-left: 10%;
+    text-align: justify;
+}
+.pieder{
+     margin-top: 10%;
+    padding-left: 10%;
+}
+.habilidades{
+    display: flex;
+}
