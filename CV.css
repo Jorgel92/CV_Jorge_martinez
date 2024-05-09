@@ -2,9 +2,7 @@
 
 #curriculum{
     width: 100vw;
-    height: 100vh;
     display: flex;
-    
     border: solid black;
     
     
@@ -57,9 +55,7 @@
     .cuerpoizq{
         text-align: justify;
     }
-    .profile-description{
-        
-    }
+    
 
 .encabezadoder{
     margin-top: 10%;
